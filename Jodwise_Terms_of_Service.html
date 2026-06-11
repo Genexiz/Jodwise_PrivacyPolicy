@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jodwise — ข้อกำหนดในการให้บริการ / Terms of Service</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --ink:#1d2330; --muted:#5b6472;
+    --line:#e4e7ec; --accent:#3b6cff; --accent-soft:#eef3ff; --warn:#9a6b00;
+    --warn-bg:#fff7e6; --warn-line:#ffe2a8;
+    --maxw:820px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Segoe UI",Tahoma,"Sarabun","Noto Sans Thai",system-ui,sans-serif;
+    line-height:1.7;font-size:16px;
+  }
+  header{
+    background:linear-gradient(135deg,#2a3b66,#3b6cff);
+    color:#fff;padding:38px 22px 30px;
+  }
+  .hwrap{max-width:var(--maxw);margin:0 auto}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:18px;letter-spacing:.3px}
+  .brand .logo{
+    width:40px;height:40px;border-radius:11px;background:rgba(255,255,255,.16);
+    display:grid;place-items:center;font-size:20px;border:1px solid rgba(255,255,255,.25)
+  }
+  h1{margin:18px 0 4px;font-size:27px;font-weight:800}
+  .sub{color:rgba(255,255,255,.82);font-size:14.5px}
+  .eff{margin-top:14px;font-size:13.5px;color:rgba(255,255,255,.9)}
+  .eff b{color:#fff}
+  .langbar{display:flex;gap:8px;margin-top:20px}
+  .langbar button{
+    border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.12);color:#fff;
+    border-radius:30px;padding:7px 18px;font-size:14px;font-weight:700;cursor:pointer;font-family:inherit;
+    transition:all .15s
+  }
+  .langbar button.active{background:#fff;color:#2a3b66}
+  main{max-width:var(--maxw);margin:0 auto;padding:28px 22px 60px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:8px 26px 26px;box-shadow:0 4px 18px rgba(20,30,60,.05)
+  }
+  .note{
+    background:var(--accent-soft);border:1px solid #d4e0ff;border-radius:12px;
+    padding:14px 18px;margin:18px 0;font-size:14.5px;color:#28406e
+  }
+  .warn{background:var(--warn-bg);border-color:var(--warn-line);color:var(--warn)}
+  section{padding-top:18px;border-top:1px solid var(--line);margin-top:18px}
+  section:first-of-type{border-top:none;margin-top:8px}
+  h2{font-size:18.5px;margin:6px 0 8px;font-weight:800;color:var(--ink)}
+  h2 .n{color:var(--accent);font-weight:800;margin-right:8px}
+  p{margin:8px 0}
+  ul{margin:8px 0;padding-left:22px}
+  li{margin:5px 0;color:#2c3340}
+  .muted{color:var(--muted)}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  code{background:#eef1f6;border:1px solid var(--line);padding:1px 7px;border-radius:6px;font-size:13.5px}
+  .toc{font-size:14.5px}
+  .toc a{display:inline-block;margin:3px 14px 3px 0;color:var(--muted)}
+  .toc a:hover{color:var(--accent)}
+  footer{max-width:var(--maxw);margin:0 auto;padding:0 22px 50px;color:var(--muted);font-size:13px;text-align:center}
+  .lang{display:none}
+  body.show-th .lang-th{display:block}
+  body.show-en .lang-en{display:block}
+  @media print{
+    header{background:#2a3b66 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .langbar{display:none}.card{box-shadow:none}
+    body.show-th .lang-en, body.show-en .lang-th{display:none}
+  }
+</style>
+</head>
+<body class="show-th">
+<header>
+  <div class="hwrap">
+    <div class="brand"><span class="logo">💰</span> Jodwise</div>
+    <h1><span class="lang lang-th">ข้อกำหนดในการให้บริการ</span><span class="lang lang-en">Terms of Service</span></h1>
+    <div class="sub">
+      <span class="lang lang-th">แอปจัดการงบประมาณส่วนบุคคล Jodwise</span>
+      <span class="lang lang-en">Jodwise — Personal Budgeting App</span>
+    </div>
+    <div class="eff">
+      <span class="lang lang-th"><b>มีผลบังคับใช้:</b> 11 มิถุนายน 2026 · <b>ปรับปรุงล่าสุด:</b> 11 มิถุนายน 2026</span>
+      <span class="lang lang-en"><b>Effective date:</b> June 11, 2026 · <b>Last updated:</b> June 11, 2026</span>
+    </div>
+    <div class="langbar">
+      <button type="button" data-lang="th" class="active">ไทย</button>
+      <button type="button" data-lang="en">English</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="card">
+
+<!-- ============================ THAI ============================ -->
+<div class="lang lang-th">
+
+  <div class="note">
+    เอกสารนี้คือข้อตกลงทางกฎหมายระหว่างคุณ (“ผู้ใช้”) กับ GNX Software ผู้พัฒนาแอปพลิเคชัน Jodwise
+    (“Jodwise”, “เรา”, “ของเรา”) โปรดอ่านอย่างละเอียด การติดตั้งหรือใช้งานแอปถือว่าคุณยอมรับข้อกำหนดทั้งหมด
+  </div>
+
+  <div class="toc muted">
+    <a href="#s1-th">1. การยอมรับข้อกำหนด</a>
+    <a href="#s2-th">2. คำอธิบายบริการ</a>
+    <a href="#s3-th">3. คุณสมบัติผู้ใช้</a>
+    <a href="#s4-th">4. บัญชีและการลงชื่อเข้าใช้</a>
+    <a href="#s5-th">5. ข้อมูลของคุณและการซิงก์</a>
+    <a href="#s6-th">6. Jodwise Expert และการชำระเงิน</a>
+    <a href="#s7-th">7. การใช้งานที่ยอมรับได้</a>
+    <a href="#s8-th">8. ทรัพย์สินทางปัญญา</a>
+    <a href="#s9-th">9. บริการของบุคคลที่สาม</a>
+    <a href="#s10-th">10. ข้อจำกัดความรับผิดชอบ</a>
+    <a href="#s11-th">11. การจำกัดความรับผิด</a>
+    <a href="#s12-th">12. การยกเลิกการใช้งาน</a>
+    <a href="#s13-th">13. การเปลี่ยนแปลง</a>
+    <a href="#s14-th">14. กฎหมายที่ใช้บังคับ</a>
+    <a href="#s15-th">15. ติดต่อเรา</a>
+  </div>
+
+  <section id="s1-th">
+    <h2><span class="n">1.</span>การยอมรับข้อกำหนด</h2>
+    <p>เมื่อคุณดาวน์โหลด ติดตั้ง หรือใช้งานแอป Jodwise คุณตกลงผูกพันตามข้อกำหนดในการให้บริการนี้
+    และ <a href="https://genexiz.github.io/Jodwise_PrivacyPolicy/privacy_policy.html" target="_blank" rel="noopener">นโยบายความเป็นส่วนตัว</a> ของเรา หากคุณไม่ยอมรับข้อกำหนดเหล่านี้ กรุณาอย่าใช้งานแอป</p>
+  </section>
+
+  <section id="s2-th">
+    <h2><span class="n">2.</span>คำอธิบายบริการ</h2>
+    <p>Jodwise เป็นแอปพลิเคชันสำหรับบันทึกรายรับรายจ่าย จัดการงบประมาณ เป้าหมายการออม
+    กระเป๋าเงินหลายใบ และรายการประจำ โดยมีคุณสมบัติหลักดังนี้:</p>
+    <ul>
+      <li><b>ทำงานแบบออฟไลน์เป็นหลัก</b> — ข้อมูลทั้งหมดถูกจัดเก็บอยู่บนอุปกรณ์ของคุณ</li>
+      <li><b>การสแกนใบเสร็จ (OCR)</b> — ประมวลผลภาพบนตัวเครื่อง</li>
+      <li><b>การบันทึกด้วยเสียง</b> — อาศัยระบบรู้จำเสียงพูดของอุปกรณ์/ระบบปฏิบัติการ</li>
+      <li><b>การซิงก์ผ่าน Google Drive (ทางเลือก)</b> — สำรองข้อมูลไปยังพื้นที่ Drive ของคุณเอง</li>
+      <li><b>การล็อกแอปด้วย PIN และไบโอเมตริก</b></li>
+    </ul>
+    <p>บริการนี้ให้ไว้เพื่อช่วยบริหารจัดการการเงินส่วนบุคคลเท่านั้น
+    <b>ไม่ถือเป็นคำแนะนำทางการเงิน การลงทุน บัญชี หรือกฎหมาย</b></p>
+  </section>
+
+  <section id="s3-th">
+    <h2><span class="n">3.</span>คุณสมบัติผู้ใช้</h2>
+    <p>คุณต้องมีอายุอย่างน้อย 13 ปี (หรืออายุขั้นต่ำตามที่กฎหมายในประเทศของคุณกำหนด)
+    จึงจะใช้งานแอปได้ หากคุณยังไม่บรรลุนิติภาวะ ควรได้รับความยินยอมจากผู้ปกครอง
+    การใช้งานแอปถือว่าคุณรับรองว่ามีคุณสมบัติและความสามารถตามกฎหมายในการเข้าทำข้อตกลงนี้</p>
+  </section>
+
+  <section id="s4-th">
+    <h2><span class="n">4.</span>บัญชีและการลงชื่อเข้าใช้</h2>
+    <p>Jodwise <b>ไม่บังคับให้สมัครสมาชิก</b> คุณสามารถใช้งานได้ทันทีโดยไม่ต้องสร้างบัญชี
+    การลงชื่อเข้าใช้ด้วยบัญชี Google จะใช้เฉพาะกรณีที่คุณเปิดใช้ฟีเจอร์ซิงก์ผ่าน Google Drive เท่านั้น</p>
+    <p>คุณเป็นผู้รับผิดชอบในการรักษาความปลอดภัยของอุปกรณ์ บัญชี Google และรหัส PIN ของคุณเอง</p>
+  </section>
+
+  <section id="s5-th">
+    <h2><span class="n">5.</span>ข้อมูลของคุณและการซิงก์</h2>
+    <ul>
+      <li>ข้อมูลทางการเงินที่คุณบันทึกเป็น <b>กรรมสิทธิ์ของคุณ</b> เราไม่มีเซิร์ฟเวอร์กลางที่จัดเก็บข้อมูลของคุณ และเราไม่สามารถเข้าถึงข้อมูลของคุณได้</li>
+      <li>เมื่อคุณเปิดใช้การซิงก์ ข้อมูลจะถูกสำรองไปยัง <b>โฟลเดอร์ข้อมูลแอป (app data folder) ใน Google Drive ของคุณเอง</b> ซึ่งอยู่ภายใต้การควบคุมของบัญชี Google ของคุณ</li>
+      <li>คุณเป็นผู้รับผิดชอบในการสำรองและดูแลข้อมูลของคุณ เราไม่รับประกันว่าข้อมูลจะไม่สูญหายจากความเสียหายของอุปกรณ์ การถอนการติดตั้ง หรือปัญหาของบริการบุคคลที่สาม</li>
+      <li>การถอนการติดตั้งแอปจะลบข้อมูลในเครื่อง คุณสามารถลบข้อมูลสำรองใน Google Drive ได้จากการตั้งค่าบัญชี Google ของคุณ</li>
+    </ul>
+    <p>รายละเอียดการเก็บและใช้ข้อมูลทั้งหมดอยู่ใน <a href="https://genexiz.github.io/Jodwise_PrivacyPolicy/privacy_policy.html" target="_blank" rel="noopener">นโยบายความเป็นส่วนตัว</a></p>
+  </section>
+
+  <section id="s6-th">
+    <h2><span class="n">6.</span>Jodwise Expert และการชำระเงิน</h2>
+    <ul>
+      <li>Jodwise ให้ใช้งานฟรีโดยมีข้อจำกัดการใช้งานบางส่วน (เช่น จำนวนหมวดหมู่ งบประมาณ เป้าหมาย แท็ก กระเป๋าเงิน การส่งออกไฟล์ และการบันทึกด้วยเสียงต่อวัน)</li>
+      <li><b>Jodwise Expert</b> เป็นการปลดล็อกแบบ <b>จ่ายครั้งเดียว (ซื้อขาด ไม่ใช่การสมัครสมาชิกรายเดือน)</b> เพื่อยกเลิกข้อจำกัดดังกล่าวและปลดล็อกธีมพรีเมียม</li>
+      <li>การชำระเงินดำเนินการผ่าน <b>Google Play Billing</b> ราคาที่บังคับใช้คือราคาที่แสดงใน Google Play ณ เวลาที่ซื้อ</li>
+      <li>สิทธิ์ Expert ผูกกับบัญชี Google Play ที่ใช้ซื้อตามนโยบายของ Google Play และเป็นสิทธิ์เฉพาะอุปกรณ์/บัญชี ไม่สามารถโอนหรือขายต่อได้</li>
+      <li><b>การคืนเงิน</b> เป็นไปตามนโยบายของ Google Play คำขอคืนเงินส่วนใหญ่ต้องดำเนินการผ่าน Google Play</li>
+      <li>การปรับลดสิทธิ์จะ <b>ไม่ลบข้อมูล</b> ที่คุณสร้างไว้เกินขีดจำกัด แต่จะจำกัดเฉพาะการสร้างรายการใหม่</li>
+    </ul>
+  </section>
+
+  <section id="s7-th">
+    <h2><span class="n">7.</span>การใช้งานที่ยอมรับได้</h2>
+    <p>คุณตกลงว่าจะไม่:</p>
+    <ul>
+      <li>ทำวิศวกรรมย้อนกลับ ดัดแปลง หรือพยายามหลบเลี่ยงกลไกการชำระเงิน/การจำกัดสิทธิ์ของแอป</li>
+      <li>ใช้แอปเพื่อการกระทำที่ผิดกฎหมาย หรือละเมิดสิทธิ์ของผู้อื่น</li>
+      <li>เผยแพร่ ขายต่อ หรือทำซ้ำส่วนใดส่วนหนึ่งของแอปโดยไม่ได้รับอนุญาต</li>
+      <li>แทรกแซงการทำงานหรือความปลอดภัยของแอปและบริการที่เกี่ยวข้อง</li>
+    </ul>
+  </section>
+
+  <section id="s8-th">
+    <h2><span class="n">8.</span>ทรัพย์สินทางปัญญา</h2>
+    <p>แอป Jodwise รวมถึงซอร์สโค้ด ดีไซน์ โลโก้ ชื่อ และเครื่องหมายต่าง ๆ เป็นทรัพย์สินของ GNX Software (ผู้พัฒนา Jodwise)
+    เราอนุญาตให้คุณใช้แอปแบบจำกัด เพิกถอนได้ ไม่จำกัดสิทธิ์เฉพาะ และไม่สามารถโอนสิทธิ์ได้
+    เพื่อการใช้งานส่วนบุคคลตามข้อกำหนดนี้เท่านั้น
+    ข้อมูลทางการเงินที่คุณป้อนยังคงเป็นของคุณ</p>
+  </section>
+
+  <section id="s9-th">
+    <h2><span class="n">9.</span>บริการของบุคคลที่สาม</h2>
+    <p>แอปใช้บริการของบุคคลที่สาม เช่น Google Play (การชำระเงิน), Google Drive และ Google Sign-In (การซิงก์ทางเลือก),
+    และระบบรู้จำเสียงพูดของอุปกรณ์ การใช้บริการเหล่านี้อยู่ภายใต้ข้อกำหนดและนโยบายความเป็นส่วนตัวของผู้ให้บริการนั้น ๆ
+    เราไม่รับผิดชอบต่อการทำงานหรือนโยบายของบริการบุคคลที่สาม</p>
+  </section>
+
+  <section id="s10-th">
+    <h2><span class="n">10.</span>ข้อจำกัดความรับผิดชอบ</h2>
+    <ul>
+      <li>แอปให้บริการ <b>“ตามสภาพที่เป็นอยู่” (as is)</b> โดยไม่มีการรับประกันใด ๆ ทั้งโดยชัดแจ้งและโดยปริยาย</li>
+      <li>ฟีเจอร์การสแกนใบเสร็จ (OCR) และการบันทึกด้วยเสียง <b>อาจมีความคลาดเคลื่อน</b> คุณควรตรวจสอบความถูกต้องของข้อมูลที่ระบบดึงมาเสมอ</li>
+      <li>Jodwise ไม่ใช่ผู้ให้คำปรึกษาทางการเงิน การตัดสินใจทางการเงินใด ๆ เป็นความรับผิดชอบของคุณเอง</li>
+      <li>เราไม่รับประกันว่าแอปจะทำงานต่อเนื่องโดยปราศจากข้อผิดพลาดหรือการหยุดชะงัก</li>
+    </ul>
+  </section>
+
+  <section id="s11-th">
+    <h2><span class="n">11.</span>การจำกัดความรับผิด</h2>
+    <p>เท่าที่กฎหมายอนุญาต Jodwise และ GNX Software จะไม่รับผิดต่อความเสียหายทางอ้อม ความเสียหายต่อเนื่อง
+    ความเสียหายพิเศษ หรือความเสียหายเชิงลงโทษ รวมถึงการสูญหายของข้อมูล กำไรที่คาดว่าจะได้รับ หรือความเสียหายทางการเงิน
+    อันเกิดจากการใช้หรือไม่สามารถใช้แอปได้ ความรับผิดรวมสูงสุดของเรา (หากมี) จะไม่เกินจำนวนเงินที่คุณชำระให้แก่เราสำหรับแอปในช่วง 12 เดือนก่อนหน้า</p>
+  </section>
+
+  <section id="s12-th">
+    <h2><span class="n">12.</span>การยกเลิกการใช้งาน</h2>
+    <p>คุณสามารถหยุดใช้งานและถอนการติดตั้งแอปได้ตลอดเวลา เราอาจระงับหรือยุติการให้บริการบางส่วนหรือทั้งหมด
+    ในกรณีที่คุณละเมิดข้อกำหนดนี้ หรือเพื่อปฏิบัติตามกฎหมาย ข้อกำหนดที่โดยสภาพควรมีผลต่อไป
+    (เช่น ทรัพย์สินทางปัญญา ข้อจำกัดความรับผิด) จะยังคงมีผลหลังการยกเลิก</p>
+  </section>
+
+  <section id="s13-th">
+    <h2><span class="n">13.</span>การเปลี่ยนแปลง</h2>
+    <p>เราอาจปรับปรุงแอปและข้อกำหนดนี้เป็นครั้งคราว หากมีการเปลี่ยนแปลงที่สำคัญ
+    เราจะอัปเดตวันที่ “ปรับปรุงล่าสุด” ด้านบน การใช้งานแอปต่อไปหลังการเปลี่ยนแปลงถือว่าคุณยอมรับข้อกำหนดฉบับใหม่</p>
+  </section>
+
+  <section id="s14-th">
+    <h2><span class="n">14.</span>กฎหมายที่ใช้บังคับ</h2>
+    <p>ข้อกำหนดนี้อยู่ภายใต้บังคับและการตีความตามกฎหมายแห่งราชอาณาจักรไทย
+    โดยไม่คำนึงถึงหลักการขัดกันแห่งกฎหมาย</p>
+  </section>
+
+  <section id="s15-th">
+    <h2><span class="n">15.</span>ติดต่อเรา</h2>
+    <p>หากมีคำถามเกี่ยวกับข้อกำหนดนี้ ติดต่อได้ที่:</p>
+    <p>📧 <a href="mailto:jodwise.support@gmail.com">jodwise.support@gmail.com</a></p>
+  </section>
+
+</div>
+
+<!-- ============================ ENGLISH ============================ -->
+<div class="lang lang-en">
+
+  <div class="note">
+    This document is a legal agreement between you (the “User”) and the developer of the Jodwise
+    application, operated by GNX Software (“Jodwise”, “we”, “us”, “our”). Please read it carefully. By
+    installing or using the app you accept all of these terms.
+  </div>
+
+  <div class="toc muted">
+    <a href="#s1-en">1. Acceptance of Terms</a>
+    <a href="#s2-en">2. Description of Service</a>
+    <a href="#s3-en">3. Eligibility</a>
+    <a href="#s4-en">4. Accounts & Sign-In</a>
+    <a href="#s5-en">5. Your Data & Sync</a>
+    <a href="#s6-en">6. Jodwise Expert & Payments</a>
+    <a href="#s7-en">7. Acceptable Use</a>
+    <a href="#s8-en">8. Intellectual Property</a>
+    <a href="#s9-en">9. Third-Party Services</a>
+    <a href="#s10-en">10. Disclaimers</a>
+    <a href="#s11-en">11. Limitation of Liability</a>
+    <a href="#s12-en">12. Termination</a>
+    <a href="#s13-en">13. Changes</a>
+    <a href="#s14-en">14. Governing Law</a>
+    <a href="#s15-en">15. Contact</a>
+  </div>
+
+  <section id="s1-en">
+    <h2><span class="n">1.</span>Acceptance of Terms</h2>
+    <p>By downloading, installing, or using the Jodwise app, you agree to be bound by these Terms of
+    Service and our <a href="https://genexiz.github.io/Jodwise_PrivacyPolicy/privacy_policy.html" target="_blank" rel="noopener">Privacy Policy</a>. If you do not agree, please do not use the app.</p>
+  </section>
+
+  <section id="s2-en">
+    <h2><span class="n">2.</span>Description of Service</h2>
+    <p>Jodwise is a personal finance application for recording income and expenses and managing budgets,
+    savings goals, multiple wallets, and recurring transactions. Key features include:</p>
+    <ul>
+      <li><b>Offline-first</b> — all your data is stored locally on your device.</li>
+      <li><b>Receipt scanning (OCR)</b> — images are processed on-device.</li>
+      <li><b>Voice entry</b> — relies on your device/operating system speech recognition.</li>
+      <li><b>Optional Google Drive sync</b> — backs up to your own Google Drive storage.</li>
+      <li><b>App lock</b> with PIN and biometrics.</li>
+    </ul>
+    <p>The service is provided to help you manage your personal finances only and
+    <b>does not constitute financial, investment, accounting, or legal advice.</b></p>
+  </section>
+
+  <section id="s3-en">
+    <h2><span class="n">3.</span>Eligibility</h2>
+    <p>You must be at least 13 years old (or the minimum age required by the laws of your country) to use
+    the app. If you are a minor, you should have your guardian's consent. By using the app you represent
+    that you have the legal capacity to enter into this agreement.</p>
+  </section>
+
+  <section id="s4-en">
+    <h2><span class="n">4.</span>Accounts & Sign-In</h2>
+    <p>Jodwise does <b>not require registration</b>. You can use it immediately without creating an account.
+    Google account sign-in is used only if you enable the optional Google Drive sync feature.</p>
+    <p>You are responsible for keeping your device, Google account, and PIN secure.</p>
+  </section>
+
+  <section id="s5-en">
+    <h2><span class="n">5.</span>Your Data & Sync</h2>
+    <ul>
+      <li>The financial data you enter <b>belongs to you</b>. We operate no central server that stores your data, and we cannot access it.</li>
+      <li>When you enable sync, your data is backed up to <b>your own Google Drive app-data folder</b>, which is controlled by your Google account.</li>
+      <li>You are responsible for backing up and safeguarding your data. We do not guarantee against data loss caused by device failure, uninstalling, or third-party service issues.</li>
+      <li>Uninstalling the app removes local data. You can delete the Google Drive backup from your Google account settings.</li>
+    </ul>
+    <p>Full details on data handling are in our <a href="https://genexiz.github.io/Jodwise_PrivacyPolicy/privacy_policy.html" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+  </section>
+
+  <section id="s6-en">
+    <h2><span class="n">6.</span>Jodwise Expert & Payments</h2>
+    <ul>
+      <li>Jodwise is free to use with certain usage limits (e.g., number of categories, budgets, goals, tags, wallets, file exports, and voice entries per day).</li>
+      <li><b>Jodwise Expert</b> is a <b>one-time purchase (not a recurring subscription)</b> that removes those limits and unlocks premium themes.</li>
+      <li>Payments are processed through <b>Google Play Billing</b>. The applicable price is the one shown in Google Play at the time of purchase.</li>
+      <li>The Expert entitlement is tied to the Google Play account used for purchase, per Google Play policy. It is per-device/account and is non-transferable.</li>
+      <li><b>Refunds</b> are governed by Google Play's policy; most refund requests must be handled through Google Play.</li>
+      <li>Loss of entitlement will <b>not delete</b> data you created beyond the limits; only the creation of new items is restricted.</li>
+    </ul>
+  </section>
+
+  <section id="s7-en">
+    <h2><span class="n">7.</span>Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Reverse-engineer, modify, or attempt to bypass the app's billing or entitlement mechanisms.</li>
+      <li>Use the app for any unlawful purpose or to infringe the rights of others.</li>
+      <li>Distribute, resell, or reproduce any part of the app without authorization.</li>
+      <li>Interfere with the operation or security of the app and related services.</li>
+    </ul>
+  </section>
+
+  <section id="s8-en">
+    <h2><span class="n">8.</span>Intellectual Property</h2>
+    <p>The Jodwise app, including its source code, design, logo, name, and marks, is the property of
+    GNX Software (the developer of Jodwise). We grant you a limited, revocable, non-exclusive, non-transferable license to use
+    the app for your personal use under these Terms. The financial data you enter remains yours.</p>
+  </section>
+
+  <section id="s9-en">
+    <h2><span class="n">9.</span>Third-Party Services</h2>
+    <p>The app uses third-party services such as Google Play (payments), Google Drive and Google Sign-In
+    (optional sync), and your device's speech recognition. Your use of these services is subject to those
+    providers' terms and privacy policies. We are not responsible for the operation or policies of
+    third-party services.</p>
+  </section>
+
+  <section id="s10-en">
+    <h2><span class="n">10.</span>Disclaimers</h2>
+    <ul>
+      <li>The app is provided <b>“as is”</b> without warranties of any kind, express or implied.</li>
+      <li>Receipt scanning (OCR) and voice entry <b>may contain errors</b>; you should always verify the data the system extracts.</li>
+      <li>Jodwise is not a financial advisor. Any financial decisions are your own responsibility.</li>
+      <li>We do not warrant that the app will operate uninterrupted or error-free.</li>
+    </ul>
+  </section>
+
+  <section id="s11-en">
+    <h2><span class="n">11.</span>Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, Jodwise and GNX Software shall not be liable for any
+    indirect, consequential, special, or punitive damages, including loss of data, anticipated profits, or
+    financial loss, arising from your use of or inability to use the app. Our total aggregate liability (if
+    any) shall not exceed the amount you paid us for the app during the preceding 12 months.</p>
+  </section>
+
+  <section id="s12-en">
+    <h2><span class="n">12.</span>Termination</h2>
+    <p>You may stop using and uninstall the app at any time. We may suspend or terminate part or all of the
+    service if you violate these Terms or to comply with the law. Provisions that by their nature should
+    survive termination (e.g., intellectual property, limitation of liability) will remain in effect.</p>
+  </section>
+
+  <section id="s13-en">
+    <h2><span class="n">13.</span>Changes</h2>
+    <p>We may update the app and these Terms from time to time. For material changes, we will update the
+    “Last updated” date above. Continued use of the app after changes constitutes acceptance of the
+    revised Terms.</p>
+  </section>
+
+  <section id="s14-en">
+    <h2><span class="n">14.</span>Governing Law</h2>
+    <p>These Terms are governed by and construed in accordance with the laws of the Kingdom of Thailand,
+    without regard to its conflict-of-law principles.</p>
+  </section>
+
+  <section id="s15-en">
+    <h2><span class="n">15.</span>Contact</h2>
+    <p>If you have any questions about these Terms, contact us at:</p>
+    <p>📧 <a href="mailto:jodwise.support@gmail.com">jodwise.support@gmail.com</a></p>
+  </section>
+
+</div>
+
+</div>
+</main>
+
+<footer>
+  © 2026 GNX Software · Jodwise · <span class="lang lang-th">ข้อกำหนดในการให้บริการ</span><span class="lang lang-en">Terms of Service</span>
+</footer>
+
+<script>
+  const btns = document.querySelectorAll('.langbar button');
+  btns.forEach(b=>{
+    b.addEventListener('click', ()=>{
+      const lang = b.dataset.lang;
+      document.body.classList.toggle('show-th', lang==='th');
+      document.body.classList.toggle('show-en', lang==='en');
+      document.documentElement.lang = lang;
+      btns.forEach(x=>x.classList.toggle('active', x===b));
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  });
+</script>
+</body>
+</html>
